@@ -1,0 +1,133 @@
+@media (min-width:1201px) {
+  body{
+    margin: 0 auto;
+    width:1000px;
+  background-color: #CDB1E7;
+  }
+  header{
+      background-color:#B5f74b;
+      color:#994ede;
+      text-align: justify;
+      font-size: 20px;
+      font-family: arial;
+  }
+  h1,h2{
+    color:#EE4899;
+    font-size: 28px;
+    font-family: Arial;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  nav, main, aside{
+    float:left;
+  }
+  nav{
+    width:260;
+    margin:1px;
+    text-align: center;
+    font-size: 20px;
+  }
+  main{
+    width:335px;
+    background-color: #E1F9BB;
+    color:#994EDE;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: left;
+    margin:5px;
+  }
+  ul li{
+  text-decoration:none;
+  list-style-type:none;
+  }
+  #datos li {
+  text-decoration:none;
+  background-color: #EE4899;}
+  #datos li:hover, #datos li:active{background-color: #B5f74b}
+  a{
+    text-decoration:none;
+  }
+  aside{
+    width:476px;
+    background-color:#994ede;
+    padding:4px;
+    margin-left:5px;
+  }
+  form p{
+    color:#CDB1E7;
+    font-size: 15px;
+    font-family: Arial;
+    font-variant: small-caps;
+    font-weight:bold;
+    text-align:left;
+  }
+  p{text-align:center;}
+}
+@media (min-width: 600px) and (max-width:1200px)
+{
+body{
+  margin: 0 auto;
+  width:1000px;
+  background-color:#CDB1E7;
+}
+header{
+    background-color:#B5f74b;
+    color:#994ede;
+    text-align: justify;
+    font-size: 20px;
+    font-family: arial;
+}
+h1,h2{
+  color:#EE4899;
+  font-size: 28px;
+  font-family: Arial;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  text-align: center;
+}
+nav, main, aside{
+  float:left;
+}
+nav{
+  width:260;
+  margin:1px;
+  text-align: center;
+  font-size: 20px;
+}
+main{
+  width:335px;
+  background-color: #E1F9BB;
+  color:#994EDE;
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+  margin:5px;
+}
+ul li{
+text-decoration:none;
+list-style-type:none;
+}
+#datos li {
+text-decoration:none;
+background-color: #EE4899;}
+#datos li:hover, #datos li:active{background-color: #B5f74b}
+a{
+  text-decoration:none;
+}
+aside{
+  width:476px;
+  background-color:#994ede;
+  padding:4px;
+  margin-left:5px;
+}
+form p{
+  color:#CDB1E7;
+  font-size: 15px;
+  font-family: Arial;
+  font-variant: small-caps;
+  font-weight:bold;
+  text-align:left;
+}
+p{text-align:center;}
+}
