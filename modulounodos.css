@@ -1,0 +1,349 @@
+/*@media( min-width:1201px){}
+@media(min-width: 601px) and ( max-width: 1200px)*/
+/*cosmo #7AB84B*/
+/*wanda color:#F2D740;/
+/*pared #41A9DC*/
+body{
+  font-family:"Source Sans Pro", serif;
+  margin: 1px;
+  background-color: #1b2127;
+  }
+  h1,h2,h3{
+    font-family: font-family: "Fjalla One", arial;
+  }
+  h1{
+    line-height: 1.5em;
+    font-size: 40px;
+    letter-spacing: -.2px;
+    color: white;
+    margin:0px;
+  }
+  ol li{
+    margin: 0px;
+    list-style-type: none;
+    padding:0px;
+  }
+  figure{
+    margin: 0px;
+  }
+h1 strong{
+  color:#F2D740;
+}
+h2{
+color:#41A9DC ;
+text-transform: uppercase;
+font-family: "Source Sans Pro", arial;
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 40px;
+}
+@media(min-width: 1101px)
+{
+.menu {
+  background-color: #1b2127;
+  margin: 0px;
+  display:flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+}
+.menu ol{
+  display: flex;
+  align-items:center;
+  height: inherit;
+}
+.menu ol li{
+  height: inherit;
+}
+.menu a{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
+.hero{
+  height: 305px;
+  margin: 0px;
+  background-color: #41A9DC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:30px;
+}
+.hero-image{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.breakingNews{
+  height: 200px;
+  background-color:#F2D740;;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breakingNews-imageContainer img, .chisme-image{
+  border-radius: 10px;
+}
+.article{
+  margin-top: 0px;
+  padding:0px;
+  margin: 0px;
+
+}
+.article a{
+text-decoration: none;
+color: #41A9DC;
+display: inline-block;
+width: 500px;
+height: 25px;
+}
+.breakingNews-title{
+  margin: 0px;
+  margin-bottom:10px;
+}
+.content{
+  margin: 0px;
+  /*background-color: #F8D9F6;*/
+}
+.chisme{
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color:#7AB84B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+.chisme-image{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.chisme-detail{
+  width:500px;
+}
+.chismeTitle{
+  font-size: 30px;
+   margin-bottom: 10px;
+   margin-top:0;
+   color: #F2D740;
+}
+.chisme-font{
+  font-size: 15px;
+}
+.work{
+border: 1px solid gray;
+margin-bottom: 5px;
+border-radius: 10px;
+padding: 20px;
+background-color:#F2D740;
+}
+.footer
+{
+  height: 100px;
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.whoarewe{
+  padding-left: 20px;
+}
+.social-link{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid white; */
+  background-size: 90px 90px;
+  margin: 5px 10px;
+}
+.social-link.twitter{
+  background-image: url("twitter.svg");
+}
+.social-link.facebook{
+  background-image: url("facebook.svg");
+}
+.social-link.github{
+  background-image: url("github.svg");
+}
+.social-link.instagram{
+  background-image: url("instagram.svg");
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit; /*para que lo herede el padre */
+  justify-content: inherit;
+  align-items: inherit;
+  flex-wrap:inherit;
+}
+}
+@media(min-width: 700px) and ( max-width: 1100px)
+{
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #41A9DC;
+  margin: 0px;
+}
+.menu {
+  margin: 0px;
+  display:flex;
+  justify-content: flex-start;
+  height: 100px;
+  align-items: center;
+}
+.menu ol{
+  display: flex;
+  align-items:center;
+  height: inherit;
+}
+.menu ol li{
+  height: inherit;
+}
+.menu a{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+}
+.hero-title{
+  font-size: 15px;
+  margin: 0px;
+  display: block;
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+.hero{
+  display: flex;
+  justify-content: flex-start;
+  align-items: inherit;
+  margin: 0px;
+}
+.hero-imageContainer{
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+.hero-image{
+  width: 90px;
+  height: 90px;
+}
+.breakingNews{
+  height: 200px;
+  background-color:#F2D740;;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.breakingNews-imageContainer img, .chisme-image{
+  border-radius: 10px;
+  width: 200px;
+  vertical-align: middle;
+  margin: 0px;
+
+}
+.article{
+  margin-top: 0px;
+  padding:0px;
+  margin: 0px;
+}
+.article a{
+text-decoration: none;
+color: #41A9DC;
+display: inline-block;
+width: 400px;
+height: 25px;
+}
+.breakingNews-title{
+  margin: 0px;
+  margin-bottom:10px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  height: 500px;
+}
+.chisme{
+  margin:2px;
+  height: inherit;
+  padding: 3px;
+  color: white;
+  background-color: #CC74A4;
+  width: 500px;
+}
+.chismeTitle{
+  font-size: 20px;
+   margin-bottom: 5px;
+   margin-top:0;
+   color: #F2D740;
+   text-align: center;
+}
+.chisme-image{
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.content{
+  margin: 0px;
+}
+.work{
+border: 1px solid gray;
+margin: 5px 0px;
+border-radius: 10px;
+padding: 20px;
+background-color:#F2D740;
+}
+.footer
+{
+  height: 50px;
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.whoarewe{
+  padding-left: 20px;
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid white; */
+  background-size: 50px 50px;
+  margin: 5px 10px;
+}
+.social-link.twitter{
+  background-image: url("twitter.svg");
+}
+.social-link.facebook{
+  background-image: url("facebook.svg");
+}
+.social-link.github{
+  background-image: url("github.svg");
+}
+.social-link.instagram{
+  background-image: url("instagram.svg");
+}
+}
